@@ -1,0 +1,14 @@
+About me
+========
+
+* Softwareentwickler @ ToToTec
+
+* Scala seit 2008
+
+* Modulare Systeme, OSGi, Buildsysteme 
+
+* Open Source
+
+* https://github.com/lefou
+
+* @TobiasRoeser

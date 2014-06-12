@@ -1,0 +1,8 @@
+Agenda
+======
+
+* Write a REST service
+
+* Write a test
+
+* Write a client
