@@ -1,0 +1,16 @@
+= Demo: REST Services with Scala, Akka and Spray
+:author: Tobias Roeser
+:revdate: 2014-06-12
+
+This project was live-coded at the https://www.xing.com/events/entwicklung-rest-services-scala-spray-akka-1403829["Entwicklung von REST-Services mit Scala, Spray und Akka" talk].
+
+I added two changes after the talk, based on question from the audience:
+
+* The `SlowActor` now stops itself after it is finished.
+* The client shutdown is now handled in one `onComplete` instead of two, because the order in which multiple `onComplete` actions run is undefined.
+
+The slides of the talk: link:src/main/resources/Folie1.txt[Slide 1], link:src/main/resources/Folie2.txt[Slide 2], link:src/main/resources/Folie3.txt[Slide 3], link:src/main/resources/Folie4.txt[Slide 4], link:src/main/resources/Folie9.txt[Slide 5]
+
+You can follow/contact me via twitter: https://twitter.com/TobiasRoeser[@TobiasRoeser]
+
+Hope to see you at the next https://twitter.com/ScalaLeipzig[@ScalaLeipzig] event.
